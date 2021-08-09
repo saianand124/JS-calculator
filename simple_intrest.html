@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head>
+        <title>Simple js Calculator</title>
+        <script src="sai.js"></script>
+        <link rel="stylesheet" href="sai.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1 style="text-align: center;">Simple JS Calculator</h1>
+
+            <div class="contents">
+                <table id="table">
+                    <tbody>
+                        <tr>
+                            <td class="labels">Amount </td>
+                            <td>
+                                <input type="number" id="Amount">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="labels">Interest Rate </td>
+                            <td>
+                                <input type="number" id ="rate" > 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="labels">No. of Years</td>
+                            <td>
+                                <select name="years" id="years">
+                                    <option value="-">---</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button id="compute" onclick="submit()">Calculate</button> <br>
+                <span id="result">
+                </span>
+            </div>
+
+            
+        </div>
+    </body>
+</html>
